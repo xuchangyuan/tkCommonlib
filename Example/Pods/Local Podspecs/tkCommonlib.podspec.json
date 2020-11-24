@@ -1,0 +1,22 @@
+{
+  "name": "tkCommonlib",
+  "version": "0.1.0",
+  "summary": "A short description of tkCommonlib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuchangyuan1989/tkCommonlib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuchangyuan1989": "[58683434@qq.com]"
+  },
+  "source": {
+    "git": "https://github.com/xuchangyuan1989/tkCommonlib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "tkCommonlib/Classes/**/*"
+}

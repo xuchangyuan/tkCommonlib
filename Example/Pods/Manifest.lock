@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - tkCommonlib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - tkCommonlib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  tkCommonlib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  tkCommonlib: c822aa51b610fa1b31a6f57c0a7778baac88e398
+
+PODFILE CHECKSUM: 9bb5d3e0310a89ac51e4e79528e603fccdbc1d2b
+
+COCOAPODS: 1.8.4

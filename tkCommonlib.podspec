@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xuchangyuan1989/tkCommonlib'
+  s.homepage         = 'https://github.com/xuchangyuan/tkCommonlib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xuchangyuan1989' => '[58683434@qq.com]' }
-  s.source           = { :git => 'https://github.com/xuchangyuan1989/tkCommonlib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xuchangyuan/tkCommonlib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

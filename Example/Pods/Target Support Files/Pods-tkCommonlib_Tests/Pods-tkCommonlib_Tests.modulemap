@@ -1,0 +1,6 @@
+framework module Pods_tkCommonlib_Tests {
+  umbrella header "Pods-tkCommonlib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
