@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of tkCommonlib.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xuchangyuan1989/tkCommonlib",
+  "homepage": "https://github.com/xuchangyuan/tkCommonlib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "xuchangyuan1989": "[58683434@qq.com]"
   },
   "source": {
-    "git": "https://github.com/xuchangyuan1989/tkCommonlib.git",
+    "git": "https://github.com/xuchangyuan/tkCommonlib.git",
     "tag": "0.1.0"
   },
   "platforms": {

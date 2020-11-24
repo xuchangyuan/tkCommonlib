@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "FetchModel.h"
 
 FOUNDATION_EXPORT double tkCommonlibVersionNumber;
 FOUNDATION_EXPORT const unsigned char tkCommonlibVersionString[];

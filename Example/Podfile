@@ -1,9 +1,15 @@
 use_frameworks!
+#Cocoapods 仓库源
+#source 'https://github.com/CocoaPods/Specs.git'
+
+#自己创建的spec仓库源
+source "https://github.com/xuchangyuan/tkCommonSpecs.git"
 
 platform :ios, '8.0'
 
 target 'tkCommonlib_Example' do
   pod 'tkCommonlib', :path => '../'
+#  pod 'tkCommonlib'
 
   target 'tkCommonlib_Tests' do
     inherit! :search_paths
