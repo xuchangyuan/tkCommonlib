@@ -1,6 +1,6 @@
 //
 //  FetchModel.h
-//  tkCommonlib
+//  FBSnapshotTestCase
 //
 //  Created by tk-ios03 on 2020/11/24.
 //

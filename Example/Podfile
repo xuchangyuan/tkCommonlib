@@ -9,7 +9,7 @@ platform :ios, '8.0'
 
 target 'tkCommonlib_Example' do
   pod 'tkCommonlib', :path => '../'
-#  pod 'tkCommonlib'
+#  pod 'tkCommonlib','~> 0.1.1'
 
   target 'tkCommonlib_Tests' do
     inherit! :search_paths

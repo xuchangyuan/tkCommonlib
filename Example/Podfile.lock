@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - tkCommonlib (0.1.0)
+  - tkCommonlib (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  tkCommonlib: b9a14b637dc7213ec162682feab1f65ff38c0059
+  tkCommonlib: e7fea19d4925b74914201c532d68995d72925d1a
 
-PODFILE CHECKSUM: 6976f4e57df4376b7d0daf3ba75557833af855c5
+PODFILE CHECKSUM: dd46e0c5fe331be864487e6f226e2cbb3c6caef1
 
 COCOAPODS: 1.8.4
