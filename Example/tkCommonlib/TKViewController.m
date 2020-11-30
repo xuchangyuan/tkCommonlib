@@ -7,7 +7,9 @@
 //
 
 #import "TKViewController.h"
-#import <FetchModel.h>
+//#import <WebViewJavascriptBridge.h>
+//#import <Test.h>
+#import <WebViewJavascriptBridge.h>
 
 @interface TKViewController ()
 
@@ -19,8 +21,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    FetchModel *fetch = [[FetchModel alloc] init];
-    [fetch fetch];
+//    FetchModel *fetch = [[FetchModel alloc] init];
+//    [fetch fetch];
 }
 
 - (void)didReceiveMemoryWarning

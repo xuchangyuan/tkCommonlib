@@ -1,27 +1,18 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - tkCommonlib (0.1.1)
+  - tkCommonlib (0.1.2):
+    - tkCommonlib/WebViewJavascriptBridge (= 0.1.2)
+  - tkCommonlib/WebViewJavascriptBridge (0.1.2)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - tkCommonlib (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   tkCommonlib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  tkCommonlib: e7fea19d4925b74914201c532d68995d72925d1a
+  tkCommonlib: 59bf5e078dae17150ab98f4d5f8321a592bbdc9a
 
-PODFILE CHECKSUM: dd46e0c5fe331be864487e6f226e2cbb3c6caef1
+PODFILE CHECKSUM: 2f6bb23b2054b4a6bdbe5fac9211cf97e62aabb7
 
 COCOAPODS: 1.8.4

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tkCommonlib'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of tkCommonlib.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                    添加 WebViewJavascriptBridge
                        DESC
 
   s.homepage         = 'https://github.com/xuchangyuan/tkCommonlib'
@@ -30,13 +30,33 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'tkCommonlib/Classes/**/*'
-  s.source_files = 'tkCommonlib/Classes/test/**/*'
+#  s.source_files = 'tkCommonlib/Classes/**/*'
+  
+  s.subspec 'WebViewJavascriptBridge' do |ss|
+      ss.source_files = 'tkCommonlib/Classes/WebViewJavascriptBridge/**/*'
+      
+#      ss.ios.source_files         = 'tkCommonlib/Classes/WebViewJavascriptBridge/*.{h,m}'
+#      ss.ios.private_header_files = 'tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h'
+#      ss.osx.source_files         = 'tkCommonlib/Classes/WebViewJavascriptBridge/*.{h,m}'
+#      ss.osx.private_header_files = 'tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h'
+      
+#      ss.frameworks       = 'WebKit'
+#      ss.ios.frameworks   = 'UIKit', 'WebKit'
+      
+  end
+  
+#  s.subspec 'test' do |ss|
+#      ss.source_files = 'tkCommonlib/Classes/test/**/*'
+#      
+#  end
+  
+#  s.source_files = 'tkCommonlib/Classes/test/**/*'
   # s.resource_bundles = {
   #   'tkCommonlib' => ['tkCommonlib/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#   s.frameworks = 'UIKit', 'WebKit'
+    
   # s.dependency 'AFNetworking', '~> 2.3'
 end
