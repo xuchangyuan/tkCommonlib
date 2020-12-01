@@ -11,6 +11,7 @@
 //#import <Test.h>
 //#import <sd>
 #import <WebViewJavascriptBridge.h>
+#import <SDImageCache.h>
 
 @interface TKViewController ()
 
