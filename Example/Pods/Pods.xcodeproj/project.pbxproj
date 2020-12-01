@@ -68,8 +68,6 @@
 		5D8A3AA32575F4960073BE02 /* SDWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3A6C2575F4960073BE02 /* SDWebImageCoderHelper.m */; };
 		5D8A3AA42575F4960073BE02 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3A6D2575F4960073BE02 /* UIButton+WebCache.h */; };
 		5D8A3AA52575F4960073BE02 /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3A6E2575F4960073BE02 /* SDWebImageTransition.h */; };
-		5D8A3AAD2575F6660073BE02 /* SDCycleScrollViewSDCycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3AAB2575F6660073BE02 /* SDCycleScrollViewSDCycleScrollView.h */; };
-		5D8A3AAE2575F6660073BE02 /* SDCycleScrollViewSDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3AAC2575F6660073BE02 /* SDCycleScrollViewSDCycleScrollView.m */; };
 		5D8A3ABE2575F7CA0073BE02 /* TAAbstractDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3AB02575F7CA0073BE02 /* TAAbstractDotView.h */; };
 		5D8A3ABF2575F7CB0073BE02 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3AB12575F7CA0073BE02 /* TADotView.m */; };
 		5D8A3AC02575F7CB0073BE02 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3AB22575F7CA0073BE02 /* TAPageControl.m */; };
@@ -172,8 +170,6 @@
 		5D8A3A6C2575F4960073BE02 /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoderHelper.m; path = tkCommonlib/Classes/SDWebImage/SDWebImageCoderHelper.m; sourceTree = "<group>"; };
 		5D8A3A6D2575F4960073BE02 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "tkCommonlib/Classes/SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		5D8A3A6E2575F4960073BE02 /* SDWebImageTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = tkCommonlib/Classes/SDWebImage/SDWebImageTransition.h; sourceTree = "<group>"; };
-		5D8A3AAB2575F6660073BE02 /* SDCycleScrollViewSDCycleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDCycleScrollViewSDCycleScrollView.h; path = tkCommonlib/Classes/SDCycleScrollView/SDCycleScrollViewSDCycleScrollView.h; sourceTree = "<group>"; };
-		5D8A3AAC2575F6660073BE02 /* SDCycleScrollViewSDCycleScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDCycleScrollViewSDCycleScrollView.m; path = tkCommonlib/Classes/SDCycleScrollView/SDCycleScrollViewSDCycleScrollView.m; sourceTree = "<group>"; };
 		5D8A3AB02575F7CA0073BE02 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
 		5D8A3AB12575F7CA0073BE02 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
 		5D8A3AB22575F7CA0073BE02 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
@@ -330,8 +326,6 @@
 				5D8A3ABD2575F7CA0073BE02 /* SDCycleScrollView.m */,
 				5D8A3ABB2575F7CA0073BE02 /* UIView+SDExtension.h */,
 				5D8A3ABA2575F7CA0073BE02 /* UIView+SDExtension.m */,
-				5D8A3AAB2575F6660073BE02 /* SDCycleScrollViewSDCycleScrollView.h */,
-				5D8A3AAC2575F6660073BE02 /* SDCycleScrollViewSDCycleScrollView.m */,
 			);
 			name = SDCycleScrollView;
 			sourceTree = "<group>";
@@ -470,7 +464,6 @@
 				5D8A3A952575F4960073BE02 /* UIView+WebCacheOperation.h in Headers */,
 				5D8A3A992575F4960073BE02 /* SDWebImagePrefetcher.h in Headers */,
 				5D8A3A812575F4960073BE02 /* SDWebImageDownloader.h in Headers */,
-				5D8A3AAD2575F6660073BE02 /* SDCycleScrollViewSDCycleScrollView.h in Headers */,
 				5D8A3A7A2575F4960073BE02 /* SDWebImageGIFCoder.h in Headers */,
 				5D8A3A312575F3120073BE02 /* FetchModel.h in Headers */,
 				5D8A3A932575F4960073BE02 /* UIImage+MultiFormat.h in Headers */,
@@ -569,7 +562,6 @@
 				5D8A3A942575F4960073BE02 /* SDWebImageGIFCoder.m in Sources */,
 				5D8A3A8C2575F4960073BE02 /* SDWebImageTransition.m in Sources */,
 				5D8A3A8D2575F4960073BE02 /* SDImageCacheConfig.m in Sources */,
-				5D8A3AAE2575F6660073BE02 /* SDCycleScrollViewSDCycleScrollView.m in Sources */,
 				5D8A3A732575F4960073BE02 /* SDWebImageDownloader.m in Sources */,
 				5D8A3A752575F4960073BE02 /* SDAnimatedImageRep.m in Sources */,
 				5D8A3A892575F4960073BE02 /* SDWebImageDownloaderOperation.m in Sources */,
