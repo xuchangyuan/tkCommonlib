@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tkCommonlib'
-  s.version          = '0.5.0'
+  s.version          = '0.5.1'
   s.summary          = 'A short description of tkCommonlib.'
 
 # This description is used to generate tags and improve search results.
@@ -47,12 +47,13 @@ Pod::Spec.new do |s|
       tkfm.requires_arc = true
   end
   
+  s.subspec 'SDCycleScrollView' do |sdcs|
+      sdcs.source_files = 'tkCommonlib/Classes/SDCycleScrollView/**/*'
+  end
+  
   s.ios.frameworks   = 'UIKit','WebKit','ImageIO'
   
-#  s.subspec 'test' do |ss|
-#      ss.source_files = 'tkCommonlib/Classes/test/**/*'
-#      
-#  end
+  
   
 #  s.source_files = 'tkCommonlib/Classes/test/**/*'
   # s.resource_bundles = {
