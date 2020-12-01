@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tkCommonlib'
-  s.version          = '0.4.2'
+  s.version          = '0.4.3'
   s.summary          = 'A short description of tkCommonlib.'
 
 # This description is used to generate tags and improve search results.
@@ -32,23 +32,19 @@ Pod::Spec.new do |s|
 
 #  s.source_files = 'tkCommonlib/Classes/**/*'
   
-  s.subspec 'WebViewJavascriptBridge' do |ss|
-      ss.source_files = 'tkCommonlib/Classes/WebViewJavascriptBridge/**/*'
-#      ss.requires_arc = true
+  s.subspec 'WebViewJavascriptBridge' do |tkwjb|
+      tkwjb.source_files = 'tkCommonlib/Classes/WebViewJavascriptBridge/**/*'
+      tkwjb.requires_arc = true
   end
   
-  s.subspec 'SDWebImage' do |ss|
-      ss.source_files = 'tkCommonlib/Classes/SDWebImage/**/*'
+  s.subspec 'fetchModel' do |tkfm|
+      tkfm.source_files = 'tkCommonlib/Classes/fetchModel/**/*'
+      tkfm.requires_arc = true
   end
   
-  s.subspec 'SDCycleScrollView' do |ss|
-      ss.source_files = 'tkCommonlib/Classes/SDCycleScrollView/**/*'
-      ss.requires_arc = true
-  end
-  
-  s.subspec 'fetchModel' do |fm|
-      fm.source_files = 'tkCommonlib/Classes/fetchModel/**/*'
-      fm.requires_arc = true
+  s.subspec 'SDWebImage' do |tkfm|
+      tkfm.source_files = 'tkCommonlib/Classes/SDWebImage/**/*'
+      tkfm.requires_arc = true
   end
   
   s.ios.frameworks   = 'UIKit','WebKit','ImageIO'
@@ -66,5 +62,4 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
 #   s.frameworks = 'UIKit', 'WebKit'
     
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,5 +1,5 @@
 //
-//  a.h
+//  SDCycleScrollViewSDCycleScrollView.h
 //  Pods-tkCommonlib_Example
 //
 //  Created by tk-ios03 on 2020/12/1.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface a : NSObject
+@interface SDCycleScrollViewSDCycleScrollView : NSObject
 
 @end
 

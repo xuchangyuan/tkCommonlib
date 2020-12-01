@@ -7,7 +7,6 @@
 
 
 #import "WKWebViewJavascriptBridge.h"
-
 #if defined supportsWKWebView
 
 @implementation WKWebViewJavascriptBridge {
