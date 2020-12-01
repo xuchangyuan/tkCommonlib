@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tkCommonlib'
-  s.version          = '0.1.3'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of tkCommonlib.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                    添加 WebViewJavascriptBridge
+                    添加 SDWebImage
                        DESC
 
   s.homepage         = 'https://github.com/xuchangyuan/tkCommonlib'
@@ -34,16 +34,23 @@ Pod::Spec.new do |s|
   
   s.subspec 'WebViewJavascriptBridge' do |ss|
       ss.source_files = 'tkCommonlib/Classes/WebViewJavascriptBridge/**/*'
-      
-#      ss.ios.source_files         = 'tkCommonlib/Classes/WebViewJavascriptBridge/*.{h,m}'
-#      ss.ios.private_header_files = 'tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h'
-#      ss.osx.source_files         = 'tkCommonlib/Classes/WebViewJavascriptBridge/*.{h,m}'
-#      ss.osx.private_header_files = 'tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h'
-      
-#      ss.frameworks       = 'WebKit'
-#      ss.ios.frameworks   = 'UIKit', 'WebKit'
-      
+      s.frameworks       = 'WebKit'
+      ss.requires_arc = true
+      s.ios.frameworks   = 'UIKit', 'WebKit'
   end
+  
+  s.subspec 'SDWebImage' do |ss|
+      ss.source_files = 'tkCommonlib/Classes/SDWebImage/**/*'
+#      ss.requires_arc = true
+      s.framework = 'ImageIO'
+  end
+  
+#  s.subspec 'fetchModel' do |ss|
+#      ss.source_files = 'tkCommonlib/Classes/fetchModel/**/*'
+#      ss.requires_arc = true
+##      s.frameworks       = 'WebKit'
+##      s.ios.frameworks   = 'UIKit', 'WebKit'
+#  end
   
 #  s.subspec 'test' do |ss|
 #      ss.source_files = 'tkCommonlib/Classes/test/**/*'

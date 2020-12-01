@@ -1,8 +1,8 @@
 {
   "name": "tkCommonlib",
-  "version": "0.1.2",
+  "version": "0.1.9",
   "summary": "A short description of tkCommonlib.",
-  "description": "添加 WebViewJavascriptBridge",
+  "description": "添加 SDWebImage",
   "homepage": "https://github.com/xuchangyuan/tkCommonlib",
   "license": {
     "type": "MIT",
@@ -13,15 +13,27 @@
   },
   "source": {
     "git": "https://github.com/xuchangyuan/tkCommonlib.git",
-    "tag": "0.1.2"
+    "tag": "0.1.9"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "frameworks": "ImageIO",
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "WebKit"
+    ]
+  },
   "subspecs": [
     {
       "name": "WebViewJavascriptBridge",
-      "source_files": "tkCommonlib/Classes/WebViewJavascriptBridge/**/*"
+      "source_files": "tkCommonlib/Classes/WebViewJavascriptBridge/**/*",
+      "requires_arc": true
+    },
+    {
+      "name": "SDWebImage",
+      "source_files": "tkCommonlib/Classes/SDWebImage/**/*"
     }
   ]
 }
