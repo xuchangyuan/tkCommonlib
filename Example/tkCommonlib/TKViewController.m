@@ -13,6 +13,7 @@
 #import <WebViewJavascriptBridge.h>
 //#import <sd>
 //#import <we>
+#import <SDCycleScrollView.h>
 
 @interface TKViewController ()
 
@@ -26,6 +27,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
 //    FetchModel *fetch = [[FetchModel alloc] init];
 //    [fetch fetch];
+    SDCycleScrollView * s = [[SDCycleScrollView alloc] initWithFrame:self.view.bounds];
+    s.backgroundColor = [UIColor redColor];
+    [self.view addSubview:s];
 }
 
 - (void)didReceiveMemoryWarning

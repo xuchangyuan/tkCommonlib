@@ -1,6 +1,6 @@
 {
   "name": "tkCommonlib",
-  "version": "0.4.1",
+  "version": "0.5.2",
   "summary": "A short description of tkCommonlib.",
   "description": "add SDCycleScrollView",
   "homepage": "https://github.com/xuchangyuan/tkCommonlib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xuchangyuan/tkCommonlib.git",
-    "tag": "0.4.1"
+    "tag": "0.5.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -40,6 +40,10 @@
       "name": "SDWebImage",
       "source_files": "tkCommonlib/Classes/SDWebImage/**/*",
       "requires_arc": true
+    },
+    {
+      "name": "SDCycleScrollView",
+      "source_files": "tkCommonlib/Classes/SDCycleScrollView/**/*"
     }
   ]
 }
