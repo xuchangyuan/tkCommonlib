@@ -1,9 +1,10 @@
 #use_frameworks!
 #Cocoapods 仓库源
 #source 'https://github.com/CocoaPods/Specs.git'
-
+#source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 #自己创建的spec仓库源
 source "https://github.com/xuchangyuan/tkCommonSpecs.git"
+#source "https://github.com/liyong03/YLGIFImage/blob/master/YLGIFImage.podspec"
 
 platform :ios, '9.0'
 

@@ -1,24 +1,11 @@
-#
-# Be sure to run `pod lib lint tkCommonlib.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'tkCommonlib'
-  s.version          = '0.5.7'
+  s.version          = '0.5.8'
   s.summary          = 'A short description of tkCommonlib.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
-                    add MJPhotoBrowser
+                    remove MJPhotoBrowser,SDCycleScrollView,SDWebImage,YLGIFImage
                        DESC
 
   s.homepage         = 'https://github.com/xuchangyuan/tkCommonlib'
@@ -42,25 +29,33 @@ Pod::Spec.new do |s|
       tkfm.requires_arc = true
   end
   
-  s.subspec 'SDWebImage' do |tkfm|
-      tkfm.source_files = 'tkCommonlib/Classes/SDWebImage/**/*'
-      tkfm.requires_arc = true
-  end
+#  s.subspec 'SDWebImage' do |tkfm|
+#      tkfm.source_files = 'tkCommonlib/Classes/SDWebImage/**/*'
+#      tkfm.requires_arc = true
+#  end
+#  
+#  s.subspec 'SDCycleScrollView' do |sdcs|
+#      sdcs.source_files = 'tkCommonlib/Classes/SDCycleScrollView/**/*'
+#      sdcs.dependency 'tkCommonlib/SDWebImage','~> 0.5.0'
+#  end
+#  
+#  s.subspec 'MJPhotoBrowser' do |tkmjpb|
+#      tkmjpb.source_files = 'tkCommonlib/Classes/MJPhotoBrowser/**/*'
+#      tkmjpb.dependency 'tkCommonlib/SDWebImage','~> 0.5.0'
+#      tkmjpb.dependency 'tkCommonlib/YLGIFImage', '~> 0.5.7'
+#  end
+#  
+#  s.subspec 'YLGIFImage' do |tktlgif|
+#      tktlgif.source_files = 'tkCommonlib/Classes/YLGIFImage/**/*'
+#  end
   
-  s.subspec 'SDCycleScrollView' do |sdcs|
-      sdcs.source_files = 'tkCommonlib/Classes/SDCycleScrollView/**/*'
-      sdcs.dependency 'tkCommonlib/SDWebImage','~> 0.5.0'
-  end
+  s.ios.frameworks   = 'UIKit','WebKit'
+#  ,'ImageIO'
   
-  s.subspec 'MJPhotoBrowser' do |tkmjpb|
-      tkmjpb.source_files = 'tkCommonlib/Classes/MJPhotoBrowser/**/*'
-      tkmjpb.dependency 'tkCommonlib/SDWebImage','~> 0.5.0'
-  end
-  
-  s.ios.frameworks   = 'UIKit','WebKit','ImageIO'
+#  s.dependency 'SVProgressHUD', '~> 2.2.5'
   
 #  s.dependency = 'tkCommonlib/SDWebImage'
-  
+#  s.dependency 'YLGIFImage'
 #  s.source_files = 'tkCommonlib/Classes/test/**/*'
   # s.resource_bundles = {
   #   'tkCommonlib' => ['tkCommonlib/Assets/*.png']

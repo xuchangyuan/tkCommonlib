@@ -1,8 +1,8 @@
 {
   "name": "tkCommonlib",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "summary": "A short description of tkCommonlib.",
-  "description": "add MJPhotoBrowser",
+  "description": "remove MJPhotoBrowser,SDCycleScrollView,SDWebImage,YLGIFImage",
   "homepage": "https://github.com/xuchangyuan/tkCommonlib",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xuchangyuan/tkCommonlib.git",
-    "tag": "0.5.7"
+    "tag": "0.5.8"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,8 +21,7 @@
   "ios": {
     "frameworks": [
       "UIKit",
-      "WebKit",
-      "ImageIO"
+      "WebKit"
     ]
   },
   "subspecs": [
@@ -35,29 +34,6 @@
       "name": "fetchModel",
       "source_files": "tkCommonlib/Classes/fetchModel/**/*",
       "requires_arc": true
-    },
-    {
-      "name": "SDWebImage",
-      "source_files": "tkCommonlib/Classes/SDWebImage/**/*",
-      "requires_arc": true
-    },
-    {
-      "name": "SDCycleScrollView",
-      "source_files": "tkCommonlib/Classes/SDCycleScrollView/**/*",
-      "dependencies": {
-        "tkCommonlib/SDWebImage": [
-          "~> 0.5.0"
-        ]
-      }
-    },
-    {
-      "name": "MJPhotoBrowser",
-      "source_files": "tkCommonlib/Classes/MJPhotoBrowser/**/*",
-      "dependencies": {
-        "tkCommonlib/SDWebImage": [
-          "~> 0.5.0"
-        ]
-      }
     }
   ]
 }
