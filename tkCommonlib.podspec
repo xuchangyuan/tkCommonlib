@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tkCommonlib'
-  s.version          = '0.3.5'
+  s.version          = '0.3.6'
   s.summary          = 'A short description of tkCommonlib.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                    delete SDWebImage
+                    add SDCycleScrollView
                        DESC
 
   s.homepage         = 'https://github.com/xuchangyuan/tkCommonlib'
@@ -44,10 +44,17 @@ Pod::Spec.new do |s|
       ss.frameworks       = 'ImageIO'
   end
   
+  s.subspec 'SDCycleScrollView' do |sdcs|
+      sdcs.source_files = 'tkCommonlib/Classes/SDCycleScrollView/**/*'
+      sdcs.requires_arc = true
+  end
+  
   s.subspec 'fetchModel' do |fm|
       fm.source_files = 'tkCommonlib/Classes/fetchModel/**/*'
       fm.requires_arc = true
   end
+  
+  
   
 #  s.subspec 'test' do |ss|
 #      ss.source_files = 'tkCommonlib/Classes/test/**/*'
