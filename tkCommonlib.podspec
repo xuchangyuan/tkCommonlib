@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tkCommonlib'
-  s.version          = '0.3.1'
+  s.version          = '0.3.3'
   s.summary          = 'A short description of tkCommonlib.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                    添加 fetchModel
+                    添加 SDWebImage
                        DESC
 
   s.homepage         = 'https://github.com/xuchangyuan/tkCommonlib'
@@ -39,19 +39,14 @@ Pod::Spec.new do |s|
       s.ios.frameworks   = 'UIKit', 'WebKit'
   end
   
-#  s.subspec 'SDWebImage' do |ss|
-#      ss.source_files = 'tkCommonlib/Classes/SDWebImage/**/*'
-#      ss.frameworks       = 'ImageIO'
-#  end
-  
-  
-#  s.ios.frameworks   = 'UIKit', 'WebKit'
+  s.subspec 'SDWebImage' do |ss|
+      ss.source_files = 'tkCommonlib/Classes/SDWebImage/**/*'
+      ss.frameworks       = 'ImageIO'
+  end
   
   s.subspec 'fetchModel' do |fm|
       fm.source_files = 'tkCommonlib/Classes/fetchModel/**/*'
       fm.requires_arc = true
-#      s.frameworks       = 'WebKit'
-#      s.ios.frameworks   = 'UIKit', 'WebKit'
   end
   
 #  s.subspec 'test' do |ss|

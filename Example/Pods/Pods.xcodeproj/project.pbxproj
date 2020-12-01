@@ -13,6 +13,8 @@
 		4C7E75078E1F8D506068DDDD72BE9412 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DD0364032EF6AAFB4045C61E3D79A6 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5D8A3A312575F3120073BE02 /* FetchModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3A2F2575F3120073BE02 /* FetchModel.h */; };
 		5D8A3A322575F3120073BE02 /* FetchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3A302575F3120073BE02 /* FetchModel.m */; };
+		5D8A3A362575F3DD0073BE02 /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3A342575F3DD0073BE02 /* SDWebImage.h */; };
+		5D8A3A372575F3DD0073BE02 /* SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3A352575F3DD0073BE02 /* SDWebImage.m */; };
 		9D43272136DA23E9535ECE8B19837247 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D8A991ABEAE3214995459B92FD6D1 /* WebViewJavascriptBridge.m */; };
 		A4D686CF35D49820466F1AF5AC029957 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E4F7BEE21705FDE11D6EA10E1EEF6A /* WebViewJavascriptBridgeBase.m */; };
 		A85A89A410E9A7611E0737CCB83BF5C1 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDE0F9B7419B9FA105B2706DC93086F /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -46,6 +48,8 @@
 		487D8A991ABEAE3214995459B92FD6D1 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		5D8A3A2F2575F3120073BE02 /* FetchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FetchModel.h; path = tkCommonlib/Classes/fetchModel/FetchModel.h; sourceTree = "<group>"; };
 		5D8A3A302575F3120073BE02 /* FetchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FetchModel.m; path = tkCommonlib/Classes/fetchModel/FetchModel.m; sourceTree = "<group>"; };
+		5D8A3A342575F3DD0073BE02 /* SDWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = tkCommonlib/Classes/SDWebImage/SDWebImage.h; sourceTree = "<group>"; };
+		5D8A3A352575F3DD0073BE02 /* SDWebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDWebImage.m; path = tkCommonlib/Classes/SDWebImage/SDWebImage.m; sourceTree = "<group>"; };
 		5F023112026CCEDFDBD10C21D7C8965A /* tkCommonlib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "tkCommonlib-dummy.m"; sourceTree = "<group>"; };
 		63A7CAB857619B7D2F67F973AFD4E701 /* Pods-tkCommonlib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tkCommonlib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		70535CABB9088DA91056B247383EF884 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -116,9 +120,19 @@
 			name = fetchModel;
 			sourceTree = "<group>";
 		};
+		5D8A3A332575F3C90073BE02 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				5D8A3A342575F3DD0073BE02 /* SDWebImage.h */,
+				5D8A3A352575F3DD0073BE02 /* SDWebImage.m */,
+			);
+			name = SDWebImage;
+			sourceTree = "<group>";
+		};
 		A1D08C0C782AE143AB84EAE7CC9A233C /* tkCommonlib */ = {
 			isa = PBXGroup;
 			children = (
+				5D8A3A332575F3C90073BE02 /* SDWebImage */,
 				5D8A3A2E2575F2F10073BE02 /* fetchModel */,
 				356EFE8DC4C1E9A689EE363FB0F2B836 /* Pod */,
 				C1780DE1751C8C4CF989977966A045D7 /* Support Files */,
@@ -207,6 +221,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8A3A362575F3DD0073BE02 /* SDWebImage.h in Headers */,
 				5D8A3A312575F3120073BE02 /* FetchModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +298,7 @@
 			files = (
 				5D8A3A322575F3120073BE02 /* FetchModel.m in Sources */,
 				3D16413B35731A8425132FE56AB4F002 /* Pods-tkCommonlib_Example-dummy.m in Sources */,
+				5D8A3A372575F3DD0073BE02 /* SDWebImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
