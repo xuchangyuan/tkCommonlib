@@ -1,8 +1,8 @@
 {
   "name": "tkCommonlib",
-  "version": "0.2.5",
+  "version": "0.4.2",
   "summary": "A short description of tkCommonlib.",
-  "description": "添加 SDWebImage",
+  "description": "add SDCycleScrollView",
   "homepage": "https://github.com/xuchangyuan/tkCommonlib",
   "license": {
     "type": "MIT",
@@ -13,19 +13,36 @@
   },
   "source": {
     "git": "https://github.com/xuchangyuan/tkCommonlib.git",
-    "tag": "0.2.5"
+    "tag": "0.4.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
+  },
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "WebKit",
+      "ImageIO"
+    ]
   },
   "subspecs": [
     {
       "name": "WebViewJavascriptBridge",
-      "source_files": "tkCommonlib/Classes/WebViewJavascriptBridge/**/*",
-      "frameworks": [
-        "WebKit",
-        "UIKit"
-      ]
+      "source_files": "tkCommonlib/Classes/WebViewJavascriptBridge/**/*"
+    },
+    {
+      "name": "SDWebImage",
+      "source_files": "tkCommonlib/Classes/SDWebImage/**/*"
+    },
+    {
+      "name": "SDCycleScrollView",
+      "source_files": "tkCommonlib/Classes/SDCycleScrollView/**/*",
+      "requires_arc": true
+    },
+    {
+      "name": "fetchModel",
+      "source_files": "tkCommonlib/Classes/fetchModel/**/*",
+      "requires_arc": true
     }
   ]
 }

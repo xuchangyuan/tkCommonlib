@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tkCommonlib'
-  s.version          = '0.4.1'
+  s.version          = '0.4.2'
   s.summary          = 'A short description of tkCommonlib.'
 
 # This description is used to generate tags and improve search results.
@@ -28,25 +28,22 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/xuchangyuan/tkCommonlib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
 #  s.source_files = 'tkCommonlib/Classes/**/*'
   
   s.subspec 'WebViewJavascriptBridge' do |ss|
       ss.source_files = 'tkCommonlib/Classes/WebViewJavascriptBridge/**/*'
-      ss.requires_arc = true
-      s.frameworks       = 'WebKit'
-      s.ios.frameworks   = 'UIKit', 'WebKit'
+#      ss.requires_arc = true
   end
   
   s.subspec 'SDWebImage' do |ss|
       ss.source_files = 'tkCommonlib/Classes/SDWebImage/**/*'
-      ss.frameworks       = 'ImageIO'
   end
   
-  s.subspec 'SDCycleScrollView' do |sdcs|
-      sdcs.source_files = 'tkCommonlib/Classes/SDCycleScrollView/**/*'
-      sdcs.requires_arc = true
+  s.subspec 'SDCycleScrollView' do |ss|
+      ss.source_files = 'tkCommonlib/Classes/SDCycleScrollView/**/*'
+      ss.requires_arc = true
   end
   
   s.subspec 'fetchModel' do |fm|
@@ -54,7 +51,7 @@ Pod::Spec.new do |s|
       fm.requires_arc = true
   end
   
-  
+  s.ios.frameworks   = 'UIKit','WebKit','ImageIO'
   
 #  s.subspec 'test' do |ss|
 #      ss.source_files = 'tkCommonlib/Classes/test/**/*'
