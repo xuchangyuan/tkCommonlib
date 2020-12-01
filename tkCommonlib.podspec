@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tkCommonlib'
-  s.version          = '0.2.2'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of tkCommonlib.'
 
 # This description is used to generate tags and improve search results.
@@ -34,13 +34,16 @@ Pod::Spec.new do |s|
   
   s.subspec 'WebViewJavascriptBridge' do |ss|
       ss.source_files = 'tkCommonlib/Classes/WebViewJavascriptBridge/**/*'
+      s.frameworks       = 'WebKit'
+      s.ios.frameworks   = 'UIKit', 'WebKit'
   end
   
-  s.subspec 'SDWebImage' do |SDWebImage|
-      SDWebImage.source_files = 'tkCommonlib/Classes/SDWebImage/**/*'
-  end
+#  s.subspec 'SDWebImage' do |ss|
+#      ss.source_files = 'tkCommonlib/Classes/SDWebImage/**/*'
+#      ss.frameworks       = 'ImageIO'
+#  end
   
-  s.frameworks       = 'WebKit','ImageIO','UIKit'
+  
 #  s.ios.frameworks   = 'UIKit', 'WebKit'
   
 #  s.subspec 'fetchModel' do |ss|

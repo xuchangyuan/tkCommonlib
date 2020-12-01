@@ -1,9 +1,7 @@
 PODS:
-  - tkCommonlib (0.1.9):
-    - tkCommonlib/SDWebImage (= 0.1.9)
-    - tkCommonlib/WebViewJavascriptBridge (= 0.1.9)
-  - tkCommonlib/SDWebImage (0.1.9)
-  - tkCommonlib/WebViewJavascriptBridge (0.1.9)
+  - tkCommonlib (0.2.5):
+    - tkCommonlib/WebViewJavascriptBridge (= 0.2.5)
+  - tkCommonlib/WebViewJavascriptBridge (0.2.5)
 
 DEPENDENCIES:
   - tkCommonlib (from `../`)
@@ -13,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  tkCommonlib: 87fdd1b096d14a53cb8376581f8a59f6d84f511d
+  tkCommonlib: 8bc4f6001265c51e8d5f83cb21f7e6d3c21ff5e3
 
 PODFILE CHECKSUM: 2f6bb23b2054b4a6bdbe5fac9211cf97e62aabb7
 
