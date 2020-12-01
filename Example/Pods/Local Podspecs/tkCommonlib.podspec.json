@@ -1,8 +1,8 @@
 {
   "name": "tkCommonlib",
-  "version": "0.5.2",
+  "version": "0.5.7",
   "summary": "A short description of tkCommonlib.",
-  "description": "add SDCycleScrollView",
+  "description": "add MJPhotoBrowser",
   "homepage": "https://github.com/xuchangyuan/tkCommonlib",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xuchangyuan/tkCommonlib.git",
-    "tag": "0.5.2"
+    "tag": "0.5.7"
   },
   "platforms": {
     "ios": "9.0"
@@ -43,7 +43,21 @@
     },
     {
       "name": "SDCycleScrollView",
-      "source_files": "tkCommonlib/Classes/SDCycleScrollView/**/*"
+      "source_files": "tkCommonlib/Classes/SDCycleScrollView/**/*",
+      "dependencies": {
+        "tkCommonlib/SDWebImage": [
+          "~> 0.5.0"
+        ]
+      }
+    },
+    {
+      "name": "MJPhotoBrowser",
+      "source_files": "tkCommonlib/Classes/MJPhotoBrowser/**/*",
+      "dependencies": {
+        "tkCommonlib/SDWebImage": [
+          "~> 0.5.0"
+        ]
+      }
     }
   ]
 }

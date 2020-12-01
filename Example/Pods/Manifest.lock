@@ -1,13 +1,17 @@
 PODS:
-  - tkCommonlib (0.5.2):
-    - tkCommonlib/fetchModel (= 0.5.2)
-    - tkCommonlib/SDCycleScrollView (= 0.5.2)
-    - tkCommonlib/SDWebImage (= 0.5.2)
-    - tkCommonlib/WebViewJavascriptBridge (= 0.5.2)
-  - tkCommonlib/fetchModel (0.5.2)
-  - tkCommonlib/SDCycleScrollView (0.5.2)
-  - tkCommonlib/SDWebImage (0.5.2)
-  - tkCommonlib/WebViewJavascriptBridge (0.5.2)
+  - tkCommonlib (0.5.7):
+    - tkCommonlib/fetchModel (= 0.5.7)
+    - tkCommonlib/MJPhotoBrowser (= 0.5.7)
+    - tkCommonlib/SDCycleScrollView (= 0.5.7)
+    - tkCommonlib/SDWebImage (= 0.5.7)
+    - tkCommonlib/WebViewJavascriptBridge (= 0.5.7)
+  - tkCommonlib/fetchModel (0.5.7)
+  - tkCommonlib/MJPhotoBrowser (0.5.7):
+    - tkCommonlib/SDWebImage (~> 0.5.0)
+  - tkCommonlib/SDCycleScrollView (0.5.7):
+    - tkCommonlib/SDWebImage (~> 0.5.0)
+  - tkCommonlib/SDWebImage (0.5.7)
+  - tkCommonlib/WebViewJavascriptBridge (0.5.7)
 
 DEPENDENCIES:
   - tkCommonlib (from `../`)
@@ -17,7 +21,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  tkCommonlib: 1617bd513436521cd2142bc17424e2399e281348
+  tkCommonlib: 0f238ec7d48485c86e40f5a77a707cc70e17a05f
 
 PODFILE CHECKSUM: 98d50fddf5d6e1caca3cd54b7df6714dfdeea602
 

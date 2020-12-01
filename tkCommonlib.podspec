@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tkCommonlib'
-  s.version          = '0.5.6'
+  s.version          = '0.5.7'
   s.summary          = 'A short description of tkCommonlib.'
 
 # This description is used to generate tags and improve search results.
@@ -50,6 +50,11 @@ Pod::Spec.new do |s|
   s.subspec 'SDCycleScrollView' do |sdcs|
       sdcs.source_files = 'tkCommonlib/Classes/SDCycleScrollView/**/*'
       sdcs.dependency 'tkCommonlib/SDWebImage','~> 0.5.0'
+  end
+  
+  s.subspec 'MJPhotoBrowser' do |tkmjpb|
+      tkmjpb.source_files = 'tkCommonlib/Classes/MJPhotoBrowser/**/*'
+      tkmjpb.dependency 'tkCommonlib/SDWebImage','~> 0.5.0'
   end
   
   s.ios.frameworks   = 'UIKit','WebKit','ImageIO'
