@@ -11,6 +11,8 @@
 		23124C7B8AFDB64915B0CEC5CD223AF9 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF794E9E579245CE3C453A2029A6185 /* WKWebViewJavascriptBridge.m */; };
 		3D16413B35731A8425132FE56AB4F002 /* Pods-tkCommonlib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F904737080846A56EF22C318DA46051 /* Pods-tkCommonlib_Example-dummy.m */; };
 		4C7E75078E1F8D506068DDDD72BE9412 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DD0364032EF6AAFB4045C61E3D79A6 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D8A3A312575F3120073BE02 /* FetchModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3A2F2575F3120073BE02 /* FetchModel.h */; };
+		5D8A3A322575F3120073BE02 /* FetchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3A302575F3120073BE02 /* FetchModel.m */; };
 		9D43272136DA23E9535ECE8B19837247 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 487D8A991ABEAE3214995459B92FD6D1 /* WebViewJavascriptBridge.m */; };
 		A4D686CF35D49820466F1AF5AC029957 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E4F7BEE21705FDE11D6EA10E1EEF6A /* WebViewJavascriptBridgeBase.m */; };
 		A85A89A410E9A7611E0737CCB83BF5C1 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDE0F9B7419B9FA105B2706DC93086F /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -36,21 +38,23 @@
 		2D2B3592CD231F1329DBD065C5F2EB39 /* tkCommonlib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tkCommonlib-prefix.pch"; sourceTree = "<group>"; };
 		2DDE0F9B7419B9FA105B2706DC93086F /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
 		30A001992E1211A407601C528AF4BB59 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = tkCommonlib/Classes/WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		3C840C488A8AF4FEDDCE177240D176A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3C840C488A8AF4FEDDCE177240D176A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F5FA646A81489719B7B8D7906C60138 /* Pods-tkCommonlib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tkCommonlib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		404B0A556BE4F1DB63701DBA0E3E7E2E /* libtkCommonlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libtkCommonlib.a; path = libtkCommonlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		404B0A556BE4F1DB63701DBA0E3E7E2E /* libtkCommonlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtkCommonlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A907DD7231272B736A365E9082A5C1 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
 		46A40F4F6390A08B1F8C036AF3B8765B /* tkCommonlib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = tkCommonlib.xcconfig; sourceTree = "<group>"; };
 		487D8A991ABEAE3214995459B92FD6D1 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		5D8A3A2F2575F3120073BE02 /* FetchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FetchModel.h; path = tkCommonlib/Classes/fetchModel/FetchModel.h; sourceTree = "<group>"; };
+		5D8A3A302575F3120073BE02 /* FetchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FetchModel.m; path = tkCommonlib/Classes/fetchModel/FetchModel.m; sourceTree = "<group>"; };
 		5F023112026CCEDFDBD10C21D7C8965A /* tkCommonlib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "tkCommonlib-dummy.m"; sourceTree = "<group>"; };
 		63A7CAB857619B7D2F67F973AFD4E701 /* Pods-tkCommonlib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tkCommonlib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		70535CABB9088DA91056B247383EF884 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		70535CABB9088DA91056B247383EF884 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		74285D3BF1DD17AEF036424D9CEF653E /* Pods-tkCommonlib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tkCommonlib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7D6F5B4D8EFE5EC0E7DECFF40584CACC /* libPods-tkCommonlib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-tkCommonlib_Example.a"; path = "libPods-tkCommonlib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6F5B4D8EFE5EC0E7DECFF40584CACC /* libPods-tkCommonlib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tkCommonlib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F904737080846A56EF22C318DA46051 /* Pods-tkCommonlib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tkCommonlib_Example-dummy.m"; sourceTree = "<group>"; };
 		94E4F7BEE21705FDE11D6EA10E1EEF6A /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A62A8477067E2977B48A5E9FC9A08506 /* tkCommonlib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = tkCommonlib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A62A8477067E2977B48A5E9FC9A08506 /* tkCommonlib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = tkCommonlib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FDF794E9E579245CE3C453A2029A6185 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = tkCommonlib/Classes/WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,9 +107,19 @@
 			path = "Target Support Files/Pods-tkCommonlib_Example";
 			sourceTree = "<group>";
 		};
+		5D8A3A2E2575F2F10073BE02 /* fetchModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D8A3A2F2575F3120073BE02 /* FetchModel.h */,
+				5D8A3A302575F3120073BE02 /* FetchModel.m */,
+			);
+			name = fetchModel;
+			sourceTree = "<group>";
+		};
 		A1D08C0C782AE143AB84EAE7CC9A233C /* tkCommonlib */ = {
 			isa = PBXGroup;
 			children = (
+				5D8A3A2E2575F2F10073BE02 /* fetchModel */,
 				356EFE8DC4C1E9A689EE363FB0F2B836 /* Pod */,
 				C1780DE1751C8C4CF989977966A045D7 /* Support Files */,
 				BDF39E9B9E0DE08323180FABD6E0BC1A /* WebViewJavascriptBridge */,
@@ -193,6 +207,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8A3A312575F3120073BE02 /* FetchModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8A3A322575F3120073BE02 /* FetchModel.m in Sources */,
 				3D16413B35731A8425132FE56AB4F002 /* Pods-tkCommonlib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,8 +406,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
