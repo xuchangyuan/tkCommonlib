@@ -13,8 +13,6 @@
 		4C7E75078E1F8D506068DDDD72BE9412 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DD0364032EF6AAFB4045C61E3D79A6 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5D8A3A312575F3120073BE02 /* FetchModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3A2F2575F3120073BE02 /* FetchModel.h */; };
 		5D8A3A322575F3120073BE02 /* FetchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3A302575F3120073BE02 /* FetchModel.m */; };
-		5D8A3A362575F3DD0073BE02 /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3A342575F3DD0073BE02 /* SDWebImage.h */; };
-		5D8A3A372575F3DD0073BE02 /* SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3A352575F3DD0073BE02 /* SDWebImage.m */; };
 		5D8A3A6F2575F4960073BE02 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3A382575F4930073BE02 /* UIView+WebCache.h */; };
 		5D8A3A702575F4960073BE02 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3A392575F4930073BE02 /* UIImage+GIF.h */; };
 		5D8A3A712575F4960073BE02 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3A3A2575F4930073BE02 /* SDWebImageDownloaderOperation.h */; };
@@ -103,8 +101,6 @@
 		487D8A991ABEAE3214995459B92FD6D1 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		5D8A3A2F2575F3120073BE02 /* FetchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FetchModel.h; path = tkCommonlib/Classes/fetchModel/FetchModel.h; sourceTree = "<group>"; };
 		5D8A3A302575F3120073BE02 /* FetchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FetchModel.m; path = tkCommonlib/Classes/fetchModel/FetchModel.m; sourceTree = "<group>"; };
-		5D8A3A342575F3DD0073BE02 /* SDWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = tkCommonlib/Classes/SDWebImage/SDWebImage.h; sourceTree = "<group>"; };
-		5D8A3A352575F3DD0073BE02 /* SDWebImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SDWebImage.m; path = tkCommonlib/Classes/SDWebImage/SDWebImage.m; sourceTree = "<group>"; };
 		5D8A3A382575F4930073BE02 /* UIView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "tkCommonlib/Classes/SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
 		5D8A3A392575F4930073BE02 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "tkCommonlib/Classes/SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
 		5D8A3A3A2575F4930073BE02 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = tkCommonlib/Classes/SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
@@ -288,8 +284,6 @@
 				5D8A3A4C2575F4940073BE02 /* UIView+WebCache.m */,
 				5D8A3A5E2575F4950073BE02 /* UIView+WebCacheOperation.h */,
 				5D8A3A6B2575F4960073BE02 /* UIView+WebCacheOperation.m */,
-				5D8A3A342575F3DD0073BE02 /* SDWebImage.h */,
-				5D8A3A352575F3DD0073BE02 /* SDWebImage.m */,
 			);
 			name = SDWebImage;
 			sourceTree = "<group>";
@@ -386,7 +380,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D8A3A362575F3DD0073BE02 /* SDWebImage.h in Headers */,
 				5D8A3A9B2575F4960073BE02 /* NSData+ImageContentType.h in Headers */,
 				5D8A3A962575F4960073BE02 /* NSImage+WebCache.h in Headers */,
 				5D8A3A7C2575F4960073BE02 /* UIImageView+WebCache.h in Headers */,
@@ -516,7 +509,6 @@
 				5D8A3A772575F4960073BE02 /* NSData+ImageContentType.m in Sources */,
 				5D8A3A742575F4960073BE02 /* SDWebImageFrame.m in Sources */,
 				5D8A3A882575F4960073BE02 /* SDWebImageCodersManager.m in Sources */,
-				5D8A3A372575F3DD0073BE02 /* SDWebImage.m in Sources */,
 				5D8A3AA22575F4960073BE02 /* UIView+WebCacheOperation.m in Sources */,
 				5D8A3A7E2575F4960073BE02 /* SDImageCache.m in Sources */,
 			);
