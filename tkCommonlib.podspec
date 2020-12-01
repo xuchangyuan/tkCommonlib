@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tkCommonlib'
-  s.version          = '0.5.5'
+  s.version          = '0.5.6'
   s.summary          = 'A short description of tkCommonlib.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                    add SDCycleScrollView
+                    add MJPhotoBrowser
                        DESC
 
   s.homepage         = 'https://github.com/xuchangyuan/tkCommonlib'

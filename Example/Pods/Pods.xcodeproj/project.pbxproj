@@ -32,6 +32,20 @@
 		574EF490F9E7807C56432B14FAE67083 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD6153EC6B3EA7028DFFE7C36C70BA7 /* TADotView.m */; };
 		5862BD8346711918A017CA1B8338DB0B /* SDWebImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E52FDAB9A5B9CBE6689D830368E14F3 /* SDWebImageFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		59022432002A431DB29B4C717FADA5D5 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B39520DAD8A2AB0AAF4A297F9838CA6F /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D8A3BC3257616860073BE02 /* MJPhotoBrowserMJPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3BC1257616860073BE02 /* MJPhotoBrowserMJPhotoBrowser.h */; };
+		5D8A3BC4257616860073BE02 /* MJPhotoBrowserMJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3BC2257616860073BE02 /* MJPhotoBrowserMJPhotoBrowser.m */; };
+		5D8A3BD2257616AF0073BE02 /* MJPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3BC5257616AF0073BE02 /* MJPhotoBrowser.h */; };
+		5D8A3BD3257616AF0073BE02 /* MJPhotoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3BC6257616AF0073BE02 /* MJPhotoLoadingView.m */; };
+		5D8A3BD4257616AF0073BE02 /* MJPhotoToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3BC7257616AF0073BE02 /* MJPhotoToolbar.h */; };
+		5D8A3BD5257616AF0073BE02 /* MJPhotoLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3BC8257616AF0073BE02 /* MJPhotoLoadingView.h */; };
+		5D8A3BD6257616AF0073BE02 /* MJPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3BC9257616AF0073BE02 /* MJPhotoProgressView.m */; };
+		5D8A3BD7257616AF0073BE02 /* MJPhotoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3BCA257616AF0073BE02 /* MJPhotoToolbar.m */; };
+		5D8A3BD8257616AF0073BE02 /* MJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3BCB257616AF0073BE02 /* MJPhoto.m */; };
+		5D8A3BD9257616AF0073BE02 /* MJPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3BCC257616AF0073BE02 /* MJPhoto.h */; };
+		5D8A3BDA257616AF0073BE02 /* MJPhotoProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3BCD257616AF0073BE02 /* MJPhotoProgressView.h */; };
+		5D8A3BDB257616AF0073BE02 /* MJPhotoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8A3BCF257616AF0073BE02 /* MJPhotoView.h */; };
+		5D8A3BDC257616AF0073BE02 /* MJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3BD0257616AF0073BE02 /* MJPhotoBrowser.m */; };
+		5D8A3BDD257616AF0073BE02 /* MJPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A3BD1257616AF0073BE02 /* MJPhotoView.m */; };
 		5E7514A9DE9E7D39945E4F34B7EAF00D /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1188B1082A1536391454D183ED167C6C /* SDWebImageDownloaderOperation.m */; };
 		5F4EAA1C99261BDDA9A142203F8A4853 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 44392F5963DCE7E175C25B4B6A3C95DF /* SDImageCache.m */; };
 		617BFCC6905D7E1D9FB1A1130D268DD8 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD45DC9A24DCBF64F393E82B47F920 /* UIImage+MultiFormat.m */; };
@@ -121,7 +135,7 @@
 		3B5BD9F445E555F0631B42DBEFB3CA5A /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = tkCommonlib/Classes/WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		3BE673CFFD56AE49F9AB46FA001BF37A /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = tkCommonlib/Classes/SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
 		3F5FA646A81489719B7B8D7906C60138 /* Pods-tkCommonlib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tkCommonlib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		404B0A556BE4F1DB63701DBA0E3E7E2E /* libtkCommonlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libtkCommonlib.a; path = libtkCommonlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		404B0A556BE4F1DB63701DBA0E3E7E2E /* libtkCommonlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtkCommonlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		44392F5963DCE7E175C25B4B6A3C95DF /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = tkCommonlib/Classes/SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
 		4542F7D86D8601802CB9A87F1EE9A3C4 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "tkCommonlib/Classes/SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
 		48CFDCAF1BC6E6448DE6DC71CEFDF3E6 /* FetchModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FetchModel.h; path = tkCommonlib/Classes/fetchModel/FetchModel.h; sourceTree = "<group>"; };
@@ -130,6 +144,21 @@
 		5673F594AE50166D048AEE0583980E76 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
 		57DE0DC54DD625D8069B95A38B146525 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = tkCommonlib/Classes/SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		5CD6153EC6B3EA7028DFFE7C36C70BA7 /* TADotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		5D8A3BC1257616860073BE02 /* MJPhotoBrowserMJPhotoBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MJPhotoBrowserMJPhotoBrowser.h; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoBrowserMJPhotoBrowser.h; sourceTree = "<group>"; };
+		5D8A3BC2257616860073BE02 /* MJPhotoBrowserMJPhotoBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MJPhotoBrowserMJPhotoBrowser.m; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoBrowserMJPhotoBrowser.m; sourceTree = "<group>"; };
+		5D8A3BC5257616AF0073BE02 /* MJPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPhotoBrowser.h; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoBrowser.h; sourceTree = "<group>"; };
+		5D8A3BC6257616AF0073BE02 /* MJPhotoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPhotoLoadingView.m; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoLoadingView.m; sourceTree = "<group>"; };
+		5D8A3BC7257616AF0073BE02 /* MJPhotoToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPhotoToolbar.h; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoToolbar.h; sourceTree = "<group>"; };
+		5D8A3BC8257616AF0073BE02 /* MJPhotoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPhotoLoadingView.h; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoLoadingView.h; sourceTree = "<group>"; };
+		5D8A3BC9257616AF0073BE02 /* MJPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPhotoProgressView.m; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoProgressView.m; sourceTree = "<group>"; };
+		5D8A3BCA257616AF0073BE02 /* MJPhotoToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPhotoToolbar.m; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoToolbar.m; sourceTree = "<group>"; };
+		5D8A3BCB257616AF0073BE02 /* MJPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPhoto.m; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhoto.m; sourceTree = "<group>"; };
+		5D8A3BCC257616AF0073BE02 /* MJPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPhoto.h; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhoto.h; sourceTree = "<group>"; };
+		5D8A3BCD257616AF0073BE02 /* MJPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPhotoProgressView.h; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoProgressView.h; sourceTree = "<group>"; };
+		5D8A3BCE257616AF0073BE02 /* MJPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MJPhotoBrowser.bundle; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoBrowser.bundle; sourceTree = "<group>"; };
+		5D8A3BCF257616AF0073BE02 /* MJPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPhotoView.h; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoView.h; sourceTree = "<group>"; };
+		5D8A3BD0257616AF0073BE02 /* MJPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPhotoBrowser.m; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoBrowser.m; sourceTree = "<group>"; };
+		5D8A3BD1257616AF0073BE02 /* MJPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPhotoView.m; path = tkCommonlib/Classes/MJPhotoBrowser/MJPhotoView.m; sourceTree = "<group>"; };
 		5F83D8532E7C32A8C4C364BDC8F5B8BB /* SDWebImageSDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageSDWebImage.h; path = tkCommonlib/Classes/SDWebImage/SDWebImageSDWebImage.h; sourceTree = "<group>"; };
 		63A7CAB857619B7D2F67F973AFD4E701 /* Pods-tkCommonlib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tkCommonlib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		648838C63CEF639AEA74E164150C67DF /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "tkCommonlib/Classes/SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
@@ -141,7 +170,7 @@
 		74285D3BF1DD17AEF036424D9CEF653E /* Pods-tkCommonlib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tkCommonlib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		79FB1BC8077602CF59674FD8E6C93A15 /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "tkCommonlib/Classes/SDWebImage/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
 		7B039259D7EECBA2D4446995C1A4C852 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = tkCommonlib/Classes/SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
-		7D6F5B4D8EFE5EC0E7DECFF40584CACC /* libPods-tkCommonlib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-tkCommonlib_Example.a"; path = "libPods-tkCommonlib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6F5B4D8EFE5EC0E7DECFF40584CACC /* libPods-tkCommonlib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tkCommonlib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		802CAAFA5D6D10363B141A7E7F52F301 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "tkCommonlib/Classes/SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		859BE7AABA57CF1E832462376DA91358 /* UIView+SDExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDExtension.m"; path = "tkCommonlib/Classes/SDCycleScrollView/UIView+SDExtension.m"; sourceTree = "<group>"; };
 		89BA77633CB8D5886D107C94474C0E81 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "tkCommonlib/Classes/SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
@@ -156,7 +185,7 @@
 		94C0B46B688C644F039103C8538FC6DD /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "tkCommonlib/Classes/SDWebImage/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
 		9A0507282C92BC4B7EFE6ECFDCE38031 /* SDWebImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCodersManager.h; path = tkCommonlib/Classes/SDWebImage/SDWebImageCodersManager.h; sourceTree = "<group>"; };
 		9D6D7C9B1086348CFE7272BC09D6A200 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F8A098717C3D5B77EA1FE6D0E8DCAFD /* SDCycleScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDCycleScrollView.m; path = tkCommonlib/Classes/SDCycleScrollView/SDCycleScrollView.m; sourceTree = "<group>"; };
 		A0AF7289CAD0741B26BCCA18827EECD2 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = tkCommonlib/Classes/SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
 		A346D63BD7220A14710E3DFBD6C2E2CF /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = tkCommonlib/Classes/WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
@@ -196,12 +225,12 @@
 		F3DD45DC9A24DCBF64F393E82B47F920 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "tkCommonlib/Classes/SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		F3E11A4D4B6147106E12248375D3983D /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "tkCommonlib/Classes/SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		F51886CE3D41F124789BF20639EC2F7E /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoderHelper.m; path = tkCommonlib/Classes/SDWebImage/SDWebImageCoderHelper.m; sourceTree = "<group>"; };
-		F5722749389E3B83A7A73D059D60A517 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F5722749389E3B83A7A73D059D60A517 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F6EAEC89F4E0822BE122363565840B55 /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "tkCommonlib/Classes/SDWebImage/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
 		F83DD3607D6588845A99F07DC56B3023 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "tkCommonlib/Classes/SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		F91262847EC9CBCAD41D71C81506426C /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = tkCommonlib/Classes/SDWebImage/SDWebImageTransition.h; sourceTree = "<group>"; };
-		F925432E0E063FE2D95C73D2C802CC1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		FDB2F9AE4C03AF0905F9FF7F5BB147A2 /* tkCommonlib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = tkCommonlib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F925432E0E063FE2D95C73D2C802CC1F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FDB2F9AE4C03AF0905F9FF7F5BB147A2 /* tkCommonlib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = tkCommonlib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,9 +309,32 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		5D8A3BC0257616730073BE02 /* MJPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				5D8A3BCC257616AF0073BE02 /* MJPhoto.h */,
+				5D8A3BCB257616AF0073BE02 /* MJPhoto.m */,
+				5D8A3BCE257616AF0073BE02 /* MJPhotoBrowser.bundle */,
+				5D8A3BC5257616AF0073BE02 /* MJPhotoBrowser.h */,
+				5D8A3BD0257616AF0073BE02 /* MJPhotoBrowser.m */,
+				5D8A3BC8257616AF0073BE02 /* MJPhotoLoadingView.h */,
+				5D8A3BC6257616AF0073BE02 /* MJPhotoLoadingView.m */,
+				5D8A3BCD257616AF0073BE02 /* MJPhotoProgressView.h */,
+				5D8A3BC9257616AF0073BE02 /* MJPhotoProgressView.m */,
+				5D8A3BC7257616AF0073BE02 /* MJPhotoToolbar.h */,
+				5D8A3BCA257616AF0073BE02 /* MJPhotoToolbar.m */,
+				5D8A3BCF257616AF0073BE02 /* MJPhotoView.h */,
+				5D8A3BD1257616AF0073BE02 /* MJPhotoView.m */,
+				5D8A3BC1257616860073BE02 /* MJPhotoBrowserMJPhotoBrowser.h */,
+				5D8A3BC2257616860073BE02 /* MJPhotoBrowserMJPhotoBrowser.m */,
+			);
+			name = MJPhotoBrowser;
+			sourceTree = "<group>";
+		};
 		A4DFAB09BEDE4FC315777A30423FB3D3 /* tkCommonlib */ = {
 			isa = PBXGroup;
 			children = (
+				5D8A3BC0257616730073BE02 /* MJPhotoBrowser */,
 				FD7FEDB029667900049F456C2B6E84AE /* fetchModel */,
 				300697FC87193D590E5BA1689B7553C8 /* Pod */,
 				2984AAC51BD6B7225C37DAC985F9D62C /* SDCycleScrollView */,
@@ -489,6 +541,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8A3BDA257616AF0073BE02 /* MJPhotoProgressView.h in Headers */,
+				5D8A3BD5257616AF0073BE02 /* MJPhotoLoadingView.h in Headers */,
+				5D8A3BD9257616AF0073BE02 /* MJPhoto.h in Headers */,
+				5D8A3BDB257616AF0073BE02 /* MJPhotoView.h in Headers */,
+				5D8A3BC3257616860073BE02 /* MJPhotoBrowserMJPhotoBrowser.h in Headers */,
+				5D8A3BD2257616AF0073BE02 /* MJPhotoBrowser.h in Headers */,
+				5D8A3BD4257616AF0073BE02 /* MJPhotoToolbar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,7 +670,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8A3BDC257616AF0073BE02 /* MJPhotoBrowser.m in Sources */,
 				3D16413B35731A8425132FE56AB4F002 /* Pods-tkCommonlib_Example-dummy.m in Sources */,
+				5D8A3BD8257616AF0073BE02 /* MJPhoto.m in Sources */,
+				5D8A3BD6257616AF0073BE02 /* MJPhotoProgressView.m in Sources */,
+				5D8A3BDD257616AF0073BE02 /* MJPhotoView.m in Sources */,
+				5D8A3BD7257616AF0073BE02 /* MJPhotoToolbar.m in Sources */,
+				5D8A3BD3257616AF0073BE02 /* MJPhotoLoadingView.m in Sources */,
+				5D8A3BC4257616860073BE02 /* MJPhotoBrowserMJPhotoBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,8 +746,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
